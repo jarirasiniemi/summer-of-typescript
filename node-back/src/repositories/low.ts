@@ -24,3 +24,4 @@ class LowWithLodash<T> extends Low<T> {
     .get('posts')
     .find({ id: 1 })
     .value() // Important: value() must be called to execute chain
+    

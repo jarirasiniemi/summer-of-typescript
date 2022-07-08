@@ -44,7 +44,6 @@ app.use(expressWinston.logger(loggerOptions));
 routes.push(new HomeRoute(app));
 routes.push(new UsersRoutes(app));
 
-// this is a simple route to make sure everything is working properly
 const runningMessage = `Server running at http://localhost:${port}`;
 
 server.listen(port, () => {
